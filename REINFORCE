@@ -1,0 +1,18 @@
+CARTPOLE
+
+R1_5
+finavg:  196.24599999999998
+
+R1_20_2000
+finavg:  195.35199999999998
+
+R1_20_3000
+finavg:  197.56400000000002
+
+
+ACROBOT
+RA1 - 4 runs, 1000 eps, 8e-4
+finavg:  91.82
+
+REINFORCE_Acrobot_20r - 20 random runs, 1000 eps, 8e-4
+finavg:  93.395

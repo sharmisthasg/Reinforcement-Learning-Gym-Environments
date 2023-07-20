@@ -1,0 +1,20 @@
+DynaQ_CartPole:
+
+E1
+alpha = 0.1, epsilon = 0.2 
+epsilon -= 0.0001
+if epsilon < 0.01:
+epsilon = 0.01
+finavg:  190.97
+
+E2
+alpha = 0.01, epsilon = 1
+if eps%250 == 0:
+    epsilon -= 0.02
+if epsilon < 0.00001:
+    epsilon = 0.00001
+finavg:  125.09599999999999
+
+20 runs
+20000 eps length
+
